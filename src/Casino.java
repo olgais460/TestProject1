@@ -59,7 +59,7 @@ public class Casino {
             int playerNumber = Integer.parseInt(consoleCommandArray[1]);
 
             if(playerNumber < 1 || playerNumber > playersArray.size()){
-                System.out.println("Введенное количество игроков должно находиться в диапазоне от 1 до " + playersArray.size());
+                System.out.println("Введенный номер игрока должен находиться в диапазоне от 1 до " + playersArray.size());
                 return;
             }
 
