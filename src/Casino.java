@@ -45,7 +45,7 @@ public class Casino {
             //если пользователь ввел корректные данные, раздаем карты и не выводим никаких сообщений
             startGame(cardsPerPlayer, playersQuantity);
 
-        }else{
+        }else if (consoleCommandArray[0].equals("get-cards")){
             //первым делом проверим, вызывалась ли ранее команда start
             //смотрим, есть ли хотя бы один игрок за столом
             if (playersArray.size() == 0){
