@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class Casino {
 
+    int t = 2;
+
     Dealer dealer;
 
     ArrayList<Player> playersArray = new ArrayList<>();
